@@ -1,0 +1,83 @@
+/* Edicion de los botones */
+.borrar {
+  background-color: #ff6961;
+  background-image: linear-gradient(to bottom, #ff6961, #ff4f40);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0px 5px 0px #cc3935;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.borrar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 0px #cc3935;
+  background-color: #ff4f40;
+  background-image: linear-gradient(to bottom, #ff4f40, #ff6961);
+}
+
+
+.actualizar {
+  background-color: #00bbff;
+  background: linear-gradient(to bottom, #0077C2, #00BFFF);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0px 5px 0px #2554ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.actualizar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 0px #030bff;
+  background-color: #00e1ff;
+  background: linear-gradient(to bottom, #005CA9, #00A1DD);
+}
+
+.insertar {
+  background-color: #ffb347;
+  background-image: linear-gradient(to bottom, #ffb347, #ffcc33);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0px 5px 0px #cc8e35;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.insertar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 0px #cc8e35;
+  background-color: #ffcc33;
+  background-image: linear-gradient(to bottom, #ffcc33, #ffb347);
+}
+
+
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table th {
+  background-image: linear-gradient(to bottom, #ff0000, #ffff00);
+}
